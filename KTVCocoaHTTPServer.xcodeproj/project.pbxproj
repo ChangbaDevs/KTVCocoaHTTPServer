@@ -16,14 +16,14 @@
 		9C1F0E9720AFBBC600FCC0B2 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F0E7020AFBBC600FCC0B2 /* DDRange.m */; };
 		9C1F0E9820AFBBC600FCC0B2 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7120AFBBC600FCC0B2 /* HTTPAuthenticationRequest.h */; };
 		9C1F0E9920AFBBC600FCC0B2 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F0E7220AFBBC600FCC0B2 /* HTTPAuthenticationRequest.m */; };
-		9C1F0E9A20AFBBC600FCC0B2 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7320AFBBC600FCC0B2 /* HTTPConnection.h */; };
+		9C1F0E9A20AFBBC600FCC0B2 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7320AFBBC600FCC0B2 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C1F0E9B20AFBBC600FCC0B2 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F0E7420AFBBC600FCC0B2 /* HTTPConnection.m */; };
 		9C1F0E9C20AFBBC600FCC0B2 /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7520AFBBC600FCC0B2 /* HTTPLogging.h */; };
 		9C1F0E9D20AFBBC600FCC0B2 /* HTTPLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F0E7620AFBBC600FCC0B2 /* HTTPLogging.m */; };
-		9C1F0E9E20AFBBC600FCC0B2 /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7720AFBBC600FCC0B2 /* HTTPMessage.h */; };
+		9C1F0E9E20AFBBC600FCC0B2 /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7720AFBBC600FCC0B2 /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C1F0E9F20AFBBC600FCC0B2 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F0E7820AFBBC600FCC0B2 /* HTTPMessage.m */; };
-		9C1F0EA020AFBBC600FCC0B2 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7920AFBBC600FCC0B2 /* HTTPResponse.h */; };
-		9C1F0EA120AFBBC600FCC0B2 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7A20AFBBC600FCC0B2 /* HTTPServer.h */; };
+		9C1F0EA020AFBBC600FCC0B2 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7920AFBBC600FCC0B2 /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1F0EA120AFBBC600FCC0B2 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7A20AFBBC600FCC0B2 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C1F0EA220AFBBC600FCC0B2 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F0E7B20AFBBC600FCC0B2 /* HTTPServer.m */; };
 		9C1F0EA320AFBBC600FCC0B2 /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1F0E7D20AFBBC600FCC0B2 /* MultipartFormDataParser.h */; };
 		9C1F0EA420AFBBC600FCC0B2 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F0E7E20AFBBC600FCC0B2 /* MultipartFormDataParser.m */; };
@@ -224,7 +224,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1F0E6320AFBB1D00FCC0B2 /* KTVCocoaHTTPServer.h in Headers */,
+				9C1F0EA120AFBBC600FCC0B2 /* HTTPServer.h in Headers */,
 				9C1F0E9E20AFBBC600FCC0B2 /* HTTPMessage.h in Headers */,
+				9C1F0EA020AFBBC600FCC0B2 /* HTTPResponse.h in Headers */,
 				9C1F0E9A20AFBBC600FCC0B2 /* HTTPConnection.h in Headers */,
 				9C1F0EA520AFBBC600FCC0B2 /* MultipartMessageHeader.h in Headers */,
 				9C1F0EB120AFBBC600FCC0B2 /* HTTPFileResponse.h in Headers */,
@@ -238,13 +241,10 @@
 				9CACF7F720AFBCF000A72CB6 /* GCDAsyncSocket.h in Headers */,
 				9C1F0E9220AFBBC600FCC0B2 /* DDData.h in Headers */,
 				9C1F0E9420AFBBC600FCC0B2 /* DDNumber.h in Headers */,
-				9C1F0EA020AFBBC600FCC0B2 /* HTTPResponse.h in Headers */,
-				9C1F0E6320AFBB1D00FCC0B2 /* KTVCocoaHTTPServer.h in Headers */,
 				9C1F0E9C20AFBBC600FCC0B2 /* HTTPLogging.h in Headers */,
 				9C1F0EB520AFBBC600FCC0B2 /* WebSocket.h in Headers */,
 				9C1F0EAF20AFBBC600FCC0B2 /* HTTPErrorResponse.h in Headers */,
 				9C1F0EAB20AFBBC600FCC0B2 /* HTTPDataResponse.h in Headers */,
-				9C1F0EA120AFBBC600FCC0B2 /* HTTPServer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
